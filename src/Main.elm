@@ -15,5 +15,5 @@ update msg model =
 view model =
   div []
     [ div [] [ text model ]
-    , button [ onClick OnClick ] [ text "いやなんかあるやろ" ]
+    , button [ onClick OnClick ] [ text "🙄" ]
     ]
